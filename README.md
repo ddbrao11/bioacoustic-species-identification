@@ -44,11 +44,14 @@ Performance may degrade across new habitats, recording devices, or seasonal soun
 
 Below is a representative spectrogram visualization derived from a public bioacoustic benchmark. Bioacoustic signals are often embedded in complex soundscapes (wind, rain, insects, overlapping species), which makes the classification problem non-trivial.
 
+## Dataset Intuition (Spectrogram Example)
+
 Domain shift is a key challenge: models trained on one geography, season, or recorder type may degrade when deployed in different habitats or acoustic conditions.
 
-![Sample spectrogram](assets/sample_spectrogram.png) ## TODO - update the image
+![Sample spectrogram (TODO: add image)](assets/sample_spectrogram.png)
+*Figure: Representative spectrogram visualization (to be added).*
 
-> Note: This repository does not redistribute datasets. It includes only derived visualizations for explanatory purposes.
+Note: This repository does not redistribute datasets. It includes only derived visualizations for explanatory purposes.
 
 
 
