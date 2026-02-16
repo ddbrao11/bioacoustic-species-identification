@@ -40,6 +40,16 @@ Geographic generalization remains challenging.
 ## Generalization Considerations
 Performance may degrade across new habitats, recording devices, or seasonal soundscapes. Domain shift is a core limitation and a key future research direction.
 
+## Dataset Intuition (Spectrogram Example)
+
+Below is a representative spectrogram visualization derived from a public bioacoustic benchmark. Bioacoustic signals are often embedded in complex soundscapes (wind, rain, insects, overlapping species), which makes the classification problem non-trivial.
+
+Domain shift is a key challenge: models trained on one geography, season, or recorder type may degrade when deployed in different habitats or acoustic conditions.
+
+![Sample spectrogram](assets/sample_spectrogram.png) ## TODO - update the image
+
+> Note: This repository does not redistribute datasets. It includes only derived visualizations for explanatory purposes.
+
 
 
 
